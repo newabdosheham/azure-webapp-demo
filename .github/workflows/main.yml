@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.13'  # You can choose a version that fits your app
+        python-version: '3.9'  # You can choose a version that fits your app
 
     # Install dependencies
     - name: Install dependencies
